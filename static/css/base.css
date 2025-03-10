@@ -5,6 +5,8 @@ a {
   color: inherit;
 }
 body {
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   background-color: rgb(0, 0, 0);
   color: white
