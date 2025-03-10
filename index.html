@@ -5,21 +5,47 @@
     <link rel="stylesheet" href="static/css/base.css">  
     <link rel="icon" href="static/images/homeless.png">
     <script src="static/js/conway.js"></script>
+    <script>
+      function copyXmrToClip() {
+        let xmrAddr = '47uax13E1FtggwXTGrVshpjiLkV6vx8ToiQBeVWK4u65GkqAnJfpNJghR4xK9G7bA5QcU33seqi3nhJkxTQXa2RYFDAhM9f';
+        alert('copied to clipboard')
+        navigator.clipboard.writeText(xmrAddr);
+      }
+      function copyPgpToClip() {
+        let pgpKey = 'pgp guh';
+        alert('copied to clipboard')
+        navigator.clipboard.writeText(pgpKey);
+      }
+    </script>
   </head>
   <body background="static/images/wojack.png">
-    <img src="static/images/lain.gif" style="width: 17%;">
+        <img src="static/images/lain.gif" style="width: 17%;">
     <img src="static/images/homeless.png" style="width: 25%;">
     <br>
     <h1>
       <b><i>SWE / RE</i></b>
-   </h1>
+    </h1>
     <h2>
-      <a href="https://github.com/Qj97F4eNJOg5">github</a>
-      <br>
-      <a href="https://google.com">fentanyl</a>
-      <br>
-      <a href="https://github.io">pgp</a>
+      <b><i>links</i></b>
     </h2>
+    <h3>
+      <button onclick="location.href='https://github.com/Qj97F4eNJOg5'">github</button>
+      <button onclick="location.href='/investments'">investment strategy</button>
+    </h3>
+    <h2>
+      <b><i>socials</i></b>
+    </h2>
+    <h3>
+      <button onclick="location.href='https://reddit.com'">reddit</button>
+      <button onclick="location.href='https://x.com'">twitter/x</button>
+    </h3>
+    <h2>
+      <b><i>click to copy</i></b>
+    </h2>
+    <h3>
+      <button onclick="copyXmrToClip()">xmr</button>
+      <button onclick="copyPgpToClip()">pgp</button>
+    </h3>
   </body>
   <footer>
   </footer>
